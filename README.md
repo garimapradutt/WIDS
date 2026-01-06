@@ -1,40 +1,46 @@
 Assignment 1: High-Dimensional Data Analysis & PCA
 
-Objective:
-Perform full data analysis on a high-dimensional dataset and implement PCA from scratch.
+Work Done:
 
-Completed Tasks:
+Performed complete data preprocessing including data cleaning, handling missing values, outlier detection, encoding, and feature scaling
 
-Data cleaning and preprocessing
+Implemented Principal Component Analysis (PCA) from scratch using NumPy and Pandas
 
-Handling missing values and outliers
+Analyzed variance retention and reduced dimensionality while preserving most information
 
-Encoding and feature scaling
+Concepts Learnt:
 
-PCA implementation using NumPy and Pandas only
+Data preprocessing techniques
 
-No use of scikit-learn for PCA
+Dimensionality reduction
+
+Eigenvalues, eigenvectors, and covariance matrices
+
+Implementing PCA without using machine learning libraries
 
 File:
 
 assignment1.ipynb
 
-Assignment 2: Solidity Smart Contract – Personal Storage
+Assignment 2: Solidity Smart Contract – Personal Storage System
 
-Objective:
-Create a simple personal note storage smart contract.
+Work Done:
 
-Features:
+Designed and implemented a Solidity smart contract for personal note storage
 
-Note struct with message and timestamp
+Used structs and mappings to associate notes with user addresses
 
-Mapping from user address to notes
+Implemented functions to add and retrieve notes
 
-addNote() to store notes with block.timestamp
+Added a global counter to track total notes created
 
-getNotes() to retrieve user notes
+Concepts Learnt:
 
-Global counter for total notes
+Solidity basics and smart contract structure
+
+Structs, mappings, and arrays
+
+Blockchain timestamps and msg.sender usage
 
 File:
 
