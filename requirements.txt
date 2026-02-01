@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+web3
+python-dotenv
+pydantic
+streamlit
+scikit-learn
+joblib
